@@ -74,4 +74,4 @@ console.log(filterRecords("Alice", "acctName", "desc"));
 console.log(filterRecords("Alice", "acctName", "asc"));
 console.log(filterRecords("Alice", 'balance'));
 console.log(filterRecords("Bob"));
-(filterRecords("harlie"));
+console.log(filterRecords("harlie"));
