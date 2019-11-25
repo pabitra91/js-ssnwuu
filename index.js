@@ -68,10 +68,10 @@ function filterRecords(user='', sortBy='', sortType = 'asc') {
     } else 
      return results 
 }
-filterRecords("Alice", "balance", "desc");
-filterRecords("Alice", "balance", "asc");
-filterRecords("Alice", "acctName", "desc");
-filterRecords("Alice", "acctName", "asc");
-filterRecords("Alice", 'balance');
-filterRecords("Bob");
-filterRecords("harlie");
+console.log(filterRecords("Alice", "balance", "desc"));
+console.log(filterRecords("Alice", "balance", "asc"));
+console.log(filterRecords("Alice", "acctName", "desc"));
+console.log(filterRecords("Alice", "acctName", "asc"));
+console.log(filterRecords("Alice", 'balance'));
+console.log(filterRecords("Bob"));
+(filterRecords("harlie"));
