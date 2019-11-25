@@ -68,6 +68,8 @@ function filterRecords(user='', sortBy='', sortType = 'asc') {
     } else 
      return results 
 }
+
+function execute(){
 console.log(filterRecords("Alice", "balance", "desc"));
 console.log(filterRecords("Alice", "balance", "asc"));
 console.log(filterRecords("Alice", "acctName", "desc"));
@@ -75,3 +77,7 @@ console.log(filterRecords("Alice", "acctName", "asc"));
 console.log(filterRecords("Alice", 'balance'));
 console.log(filterRecords("Bob"));
 console.log(filterRecords("harlie"));
+}
+
+execute();
+
